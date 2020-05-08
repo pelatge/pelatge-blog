@@ -9,14 +9,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
+  "dev": "gatsby develop",
+  "heroku-postbuild": "gatsby build",
+  "start": "gatsby serve"
+},
   "dependencies": {
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.39",
